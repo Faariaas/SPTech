@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: Teste classe ListaUtil
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 2, Errors: 3, Skipped: 0, Time elapsed: 0.061 s <<< FAILURE! - in com.bandtec.projeto.lista.desafio.ListaUtilTest
+com.bandtec.projeto.lista.desafio.ListaUtilTest.testHasDuplicidadeQuandoAcionadoEListaNaoPossuiDuplicidadeDeveRetornarFalse  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bandtec.projeto.lista.desafio.ListaUtilTest.testHasDuplicidadeQuandoAcionadoEListaNaoPossuiDuplicidadeDeveRetornarFalse(ListaUtilTest.java:238)
+
+com.bandtec.projeto.lista.desafio.ListaUtilTest.testGetMenorQuandoAcionadoEListaEstaVaziaDeveRetornar0  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <99999>
+	at com.bandtec.projeto.lista.desafio.ListaUtilTest.testGetMenorQuandoAcionadoEListaEstaVaziaDeveRetornar0(ListaUtilTest.java:192)
+
+com.bandtec.projeto.lista.desafio.ListaUtilTest.testGetMaiorQuandoAcionadoEListaEstaVaziaDeveRetornar0  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <-1>
+	at com.bandtec.projeto.lista.desafio.ListaUtilTest.testGetMaiorQuandoAcionadoEListaEstaVaziaDeveRetornar0(ListaUtilTest.java:171)
+
+com.bandtec.projeto.lista.desafio.ListaUtilTest.testHasDuplicidadeQuandoAcionadoEListaPossuiDuplicidadeDeveRetornarTrue  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bandtec.projeto.lista.desafio.ListaUtilTest.testHasDuplicidadeQuandoAcionadoEListaPossuiDuplicidadeDeveRetornarTrue(ListaUtilTest.java:223)
+
+com.bandtec.projeto.lista.desafio.ListaUtilTest.testHasDuplicidadeQuandoAcionadoEListaEstaVaziaDeveRetornarFalse  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bandtec.projeto.lista.desafio.ListaUtilTest.testHasDuplicidadeQuandoAcionadoEListaEstaVaziaDeveRetornarFalse(ListaUtilTest.java:245)
+

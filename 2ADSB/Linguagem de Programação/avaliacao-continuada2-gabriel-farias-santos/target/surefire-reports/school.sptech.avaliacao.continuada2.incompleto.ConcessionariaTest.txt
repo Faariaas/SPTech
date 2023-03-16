@@ -1,0 +1,91 @@
+-------------------------------------------------------------------------------
+Test set: school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest
+-------------------------------------------------------------------------------
+Tests run: 31, Failures: 1, Errors: 14, Skipped: 0, Time elapsed: 0.122 s <<< FAILURE! - in school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest
+school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.getPercentualVendasZerado  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable code - 'void' type not allowed here
+	at school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.getPercentualVendasZerado(ConcessionariaTest.java:1)
+
+school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.getPercentualVendasComDescontoCalculoDeveRetornar100  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - cannot find symbol
+  symbol:   method getQuantidadeDescontosAplicados()
+  location: variable concessionaria of type school.sptech.avaliacao.continuada2.incompleto.Concessionaria
+	at school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.getPercentualVendasComDescontoCalculoDeveRetornar100(ConcessionariaTest.java:1)
+
+school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComVeiculoSemValorTabela  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - cannot find symbol
+  symbol:   method getQuantidadeDescontosAplicados()
+  location: variable concessionaria of type school.sptech.avaliacao.continuada2.incompleto.Concessionaria
+	at school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComVeiculoSemValorTabela(ConcessionariaTest.java:1)
+
+school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComVeiculoNuloEDescontoNegativo  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - cannot find symbol
+  symbol:   method getQuantidadeDescontosAplicados()
+  location: variable concessionaria of type school.sptech.avaliacao.continuada2.incompleto.Concessionaria
+	at school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComVeiculoNuloEDescontoNegativo(ConcessionariaTest.java:1)
+
+school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.getPercentualVendasZerado2  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable code - 'void' type not allowed here
+	at school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.getPercentualVendasZerado2(ConcessionariaTest.java:1)
+
+school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComVeiculoValidoEDescontoNegativo  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - cannot find symbol
+  symbol:   method getQuantidadeDescontosAplicados()
+  location: variable concessionaria of type school.sptech.avaliacao.continuada2.incompleto.Concessionaria
+	at school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComVeiculoValidoEDescontoNegativo(ConcessionariaTest.java:1)
+
+school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComVeiculoSemEstoque  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - cannot find symbol
+  symbol:   method getQuantidadeDescontosAplicados()
+  location: variable concessionaria of type school.sptech.avaliacao.continuada2.incompleto.Concessionaria
+	at school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComVeiculoSemEstoque(ConcessionariaTest.java:1)
+
+school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.getPercentualVendasComDescontoCalculoDeveRetornar50  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable code - 'void' type not allowed here
+	at school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.getPercentualVendasComDescontoCalculoDeveRetornar50(ConcessionariaTest.java:1)
+
+school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.getPercentualVendasComDescontoCalculoDeveRetornar75  Time elapsed: 0 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable code - 'void' type not allowed here
+	at school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.getPercentualVendasComDescontoCalculoDeveRetornar75(ConcessionariaTest.java:1)
+
+school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComVeiculoNuloEDescontoNulo  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - cannot find symbol
+  symbol:   method getQuantidadeDescontosAplicados()
+  location: variable concessionaria of type school.sptech.avaliacao.continuada2.incompleto.Concessionaria
+	at school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComVeiculoNuloEDescontoNulo(ConcessionariaTest.java:1)
+
+school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComVeiculoValidoEDescontoValido  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - cannot find symbol
+  symbol:   method getQuantidadeDescontosAplicados()
+  location: variable concessionaria of type school.sptech.avaliacao.continuada2.incompleto.Concessionaria
+	at school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComVeiculoValidoEDescontoValido(ConcessionariaTest.java:1)
+
+school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComEstoqueEPrecoValido  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <9> but was: <-1>
+	at school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComEstoqueEPrecoValido(ConcessionariaTest.java:42)
+
+school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.getPercentualVendasApenasVendasComDesconto  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable code - 'void' type not allowed here
+	at school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.getPercentualVendasApenasVendasComDesconto(ConcessionariaTest.java:1)
+
+school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComVeiculoSemValorTabelaESemPreco  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - cannot find symbol
+  symbol:   method getQuantidadeDescontosAplicados()
+  location: variable concessionaria of type school.sptech.avaliacao.continuada2.incompleto.Concessionaria
+	at school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComVeiculoSemValorTabelaESemPreco(ConcessionariaTest.java:1)
+
+school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComVeiculoValidoEDescontoNulo  Time elapsed: 0 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - cannot find symbol
+  symbol:   method getQuantidadeDescontosAplicados()
+  location: variable concessionaria of type school.sptech.avaliacao.continuada2.incompleto.Concessionaria
+	at school.sptech.avaliacao.continuada2.incompleto.ConcessionariaTest.realizarVendaComVeiculoValidoEDescontoNulo(ConcessionariaTest.java:1)
+

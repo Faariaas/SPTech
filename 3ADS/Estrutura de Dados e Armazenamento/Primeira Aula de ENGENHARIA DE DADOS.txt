@@ -1,0 +1,59 @@
+Célia Taniwaki - ENGENHARIA DE DADOS E ARMAZENAMENTO
+
+
+====================================================
+Coisas a pesquisar:
+
+Linguagem Basic
+Linguagem logo
+
+NetWare
+MidleWare
+
+Inteligencia Artificial (Linguagem natural)
+
+Oque caralhos é uma ementa?
+É a porra de um resumo dessa caralha
+
+Me lembra das Sprints nao porfavor
+
+====================================================
+
+Ementa:
+Caracterização, analise e implementação de estruturas de dados basicos:
+	Lista de estaticas
+	Pilhas
+	Filas
+	Arvores Binarias
+Implementação de metodods de pesquisa e de ordenação
+metodos de armazenamneo
+
+Conteudo da materia:
+Vetores
+POO (Programação orientada a objetos)
+	Revisao de classes abstratas\ métodos abstratos
+	Polimorfismo
+	Interfaces
+(Matriz)
+Lista de estaticas
+Pilhas
+Filas
+Arvores\ Arvores Binarias
+
+=> CONTINUA DEPOIS DOS CONCEITOS
+====================================================
+(Pilhas e filas na sprint 3 teremos que armazenar algo la entao lembrete viu Senhor Gabriel vai esquecer nao)
+
+Conceito de fila é o padrao de uma fila de pessoas, onde o primeiro a chegar vai ser atendido primeiro,
+
+Conceito de pilha, não é de pilha tipo bateria mas pilha de roupas, onde nao pode ser feito a de baixo pois tem alguma coisa acima dela 
+====================================================
+CONTINUAÇÃO =>
+
+Ordenação
+	Selection Sort/ Bubble Sort/ Insertion Sort
+	Quick Sort & Merge Sort
+Pesquisa sequencial VS Pesquisa Binaria
+Importação/ Expostação de dados em arquivos texto
+Recursão
+Padrões de projeto

@@ -1,0 +1,4 @@
+Anotações SO 24/08/2022
+
+Dual boot- 2 SO em ume maquine ao mesmo tempo
+gerenciamento de Memória ram 

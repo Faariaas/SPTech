@@ -1,0 +1,72 @@
+ENgenharia de Software
+
+Aula dia 13/02/2023
+
+
+Fraze da Sprint:
+EMpatia
+Talves sua opniao seja importante
+
+===========================================
+
+Nem sempre suas escolhas sao sua
+
+* UX em todos os lugares
+
+Don Norman: inventor do termo UX
+
+Cofundador da NN/g: Nielson Norman Group 
+
+===========================================
+
+Livro pra se ler 
+(Designer do dia-dia)
+
+Modelos mentais
+
+Leis de Jakob - 2000
+Lei de Hick - 1952
+Linear de Doherty - 1982
+
+
+OS usuarios assam a maior parte do tempo em outros sites e preferem que seu site funcione da mesma maneira que todos os outros sites que ja conhecem
+
+===========================================
+
+DARK UX
+Termo utilizado para descrever Praticas de designer de interface que nao sao eticas ou sao moralmente duvidosas,
+
+Exemplos:
+Jogos de pay-to-in
+Estimular compras por impulso
+videos de auto-play
+
+
+Tatica FOMO
+Far Of Missing Out / Medo de Perder
+
+===========================================
+Interfaces Frustantes
+===========================================
+
+Proto Personas 
+
+NAO SAO INVENTADAS
+Tem um nome, mas representa um gruo de pessoas e nao um usuario especifico
+
+COMO SE CRIA UMA PROTO PERSONA
+
+Anote os principais concorrentes;
+
+Anote os pricipais pontos identicados nos usuarios pesquisadores;
+
+Agrupe por similaridade;
+
+Complemente ocm os detalhes que faltam;
+
+escreva tudo nos quadrante;
+
+===========================================
+Personas spectrum (Microsoft)
+
+

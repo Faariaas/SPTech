@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: HospitalTest
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 5, Errors: 3, Skipped: 0, Time elapsed: 0.113 s <<< FAILURE! - in HospitalTest
+realizarPagamentoMedicoNuloSemExcecao  Time elapsed: 0.05 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoMedicoNuloSemExcecao(HospitalTest.java:83)
+Caused by: java.lang.NullPointerException
+	at HospitalTest.lambda$realizarPagamentoMedicoNuloSemExcecao$4(HospitalTest.java:83)
+	at HospitalTest.realizarPagamentoMedicoNuloSemExcecao(HospitalTest.java:83)
+
+realizarPagamentoMedicoNulo  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoMedicoNulo(HospitalTest.java:74)
+
+realizarPagamentoHoraExtraMedicoNulo  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoHoraExtraMedicoNulo(HospitalTest.java:132)
+
+realizarPagamentoValorValido  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+	at HospitalTest.realizarPagamentoValorValido(HospitalTest.java:58)
+
+realizarPagamentoHoraExtraNull  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoHoraExtraNull(HospitalTest.java:166)
+
+realizarPagamentoHoraExtraNegativa  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0.0> but was: <10.0>
+	at HospitalTest.realizarPagamentoHoraExtraNegativa(HospitalTest.java:158)
+
+realizarPagamentoHoraExtraMedicoNuloSemExcecao  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoHoraExtraMedicoNuloSemExcecao(HospitalTest.java:141)
+Caused by: java.lang.NullPointerException
+	at HospitalTest.lambda$realizarPagamentoHoraExtraMedicoNuloSemExcecao$6(HospitalTest.java:141)
+	at HospitalTest.realizarPagamentoHoraExtraMedicoNuloSemExcecao(HospitalTest.java:141)
+
+realizarPagamentoHoraExtraValorValido  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <20.0> but was: <10.0>
+	at HospitalTest.realizarPagamentoHoraExtraValorValido(HospitalTest.java:115)
+

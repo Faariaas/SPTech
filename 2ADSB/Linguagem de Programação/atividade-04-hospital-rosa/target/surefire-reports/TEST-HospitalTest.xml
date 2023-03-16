@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="HospitalTest" time="0.113" tests="24" errors="3" skipped="0" failures="5">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\gabriel.f.a.santos\Documents\atividade-04-hospital-rosa\target\test-classes;C:\Users\gabriel.f.a.santos\Documents\atividade-04-hospital-rosa\target\classes;C:\Users\gabriel.f.a.santos\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\gabriel.f.a.santos\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\gabriel.f.a.santos\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\gabriel.f.a.santos\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\gabriel.f.a.santos\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\gabriel.f.a.santos\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\gabriel.f.a.santos\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\gabriel.f.a.santos\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin"/>
+    <property name="sun.java.command" value="C:\Users\GABRIE~1.SAN\AppData\Local\Temp\surefire1532424195295644523\surefirebooter5132611096565720644.jar C:\Users\gabriel.f.a.santos\AppData\Local\Temp\surefire1532424195295644523 2022-10-11T13-04-19_218-jvmRun1 surefire11865378471700850565tmp surefire_08078627400308142460tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\gabriel.f.a.santos\Documents\atividade-04-hospital-rosa\target\test-classes;C:\Users\gabriel.f.a.santos\Documents\atividade-04-hospital-rosa\target\classes;C:\Users\gabriel.f.a.santos\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\gabriel.f.a.santos\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\gabriel.f.a.santos\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\gabriel.f.a.santos\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\gabriel.f.a.santos\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\gabriel.f.a.santos\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\gabriel.f.a.santos\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\gabriel.f.a.santos\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\gabriel.f.a.santos"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\gabriel.f.a.santos\Documents\atividade-04-hospital-rosa"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\GABRIE~1.SAN\AppData\Local\Temp\surefire1532424195295644523\surefirebooter5132611096565720644.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
+    <property name="user.name" value="gabriel.f.a.santos"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-12.6\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\gabriel.f.a.santos\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\GABRIE~1.SAN\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="C:\Users\gabriel.f.a.santos\Documents\atividade-04-hospital-rosa"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X86\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\gabriel.f.a.santos\AppData\Local\Microsoft\WindowsApps;C:\Users\gabriel.f.a.santos\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.10+8-LTS-162"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="realizarPagamentoMedicoNuloSemExcecao" classname="HospitalTest" time="0.05">
+    <failure message="Unexpected exception thrown: java.lang.NullPointerException" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoMedicoNuloSemExcecao(HospitalTest.java:83)
+Caused by: java.lang.NullPointerException
+	at HospitalTest.lambda$realizarPagamentoMedicoNuloSemExcecao$4(HospitalTest.java:83)
+	at HospitalTest.realizarPagamentoMedicoNuloSemExcecao(HospitalTest.java:83)
+</failure>
+  </testcase>
+  <testcase name="realizarPagamentoMedicoNulo" classname="HospitalTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoMedicoNulo(HospitalTest.java:74)
+</error>
+  </testcase>
+  <testcase name="realizarPagamentoMedicoInativo" classname="HospitalTest" time="0.003"/>
+  <testcase name="construtorHospital" classname="HospitalTest" time="0.001"/>
+  <testcase name="realizarPagamentoHoraExtraMedicoNulo" classname="HospitalTest" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoHoraExtraMedicoNulo(HospitalTest.java:132)
+</error>
+  </testcase>
+  <testcase name="classeHospitalGettersESetters" classname="HospitalTest" time="0.015"/>
+  <testcase name="realizarPagamentoValorValido" classname="HospitalTest" time="0.002">
+    <failure message="expected: &lt;1&gt; but was: &lt;0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+	at HospitalTest.realizarPagamentoValorValido(HospitalTest.java:58)
+]]></failure>
+  </testcase>
+  <testcase name="classeMedicoAtributosPrivados" classname="HospitalTest" time="0.002"/>
+  <testcase name="realizarPagamentoHoraExtraValorInvalido" classname="HospitalTest" time="0"/>
+  <testcase name="desligarMedicoInvalido" classname="HospitalTest" time="0.001"/>
+  <testcase name="realizarPagamentoHoraExtraNull" classname="HospitalTest" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoHoraExtraNull(HospitalTest.java:166)
+</error>
+  </testcase>
+  <testcase name="realizarPagamentoHoraExtraNegativa" classname="HospitalTest" time="0.002">
+    <failure message="expected: &lt;0.0&gt; but was: &lt;10.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0.0> but was: <10.0>
+	at HospitalTest.realizarPagamentoHoraExtraNegativa(HospitalTest.java:158)
+]]></failure>
+  </testcase>
+  <testcase name="realizarPagamentoHoraExtraMedicoNuloSemExcecao" classname="HospitalTest" time="0.002">
+    <failure message="Unexpected exception thrown: java.lang.NullPointerException" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoHoraExtraMedicoNuloSemExcecao(HospitalTest.java:141)
+Caused by: java.lang.NullPointerException
+	at HospitalTest.lambda$realizarPagamentoHoraExtraMedicoNuloSemExcecao$6(HospitalTest.java:141)
+	at HospitalTest.realizarPagamentoHoraExtraMedicoNuloSemExcecao(HospitalTest.java:141)
+</failure>
+  </testcase>
+  <testcase name="construtorMedico" classname="HospitalTest" time="0.002"/>
+  <testcase name="realizarPagamentoHoraExtraValorValido" classname="HospitalTest" time="0.001">
+    <failure message="expected: &lt;20.0&gt; but was: &lt;10.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <20.0> but was: <10.0>
+	at HospitalTest.realizarPagamentoHoraExtraValorValido(HospitalTest.java:115)
+]]></failure>
+  </testcase>
+  <testcase name="classeHospitalAtributosPrivados" classname="HospitalTest" time="0.001"/>
+  <testcase name="realizarPagamentoValorInvalido" classname="HospitalTest" time="0.001"/>
+  <testcase name="realizarPagamentoValorNulo" classname="HospitalTest" time="0.001"/>
+  <testcase name="realizarPagamentoHoraExtraMedicoInativo" classname="HospitalTest" time="0.001"/>
+  <testcase name="classeMedicoMetodosPublicos" classname="HospitalTest" time="0.001"/>
+  <testcase name="classeMedicoGettersESetters" classname="HospitalTest" time="0.001"/>
+  <testcase name="classeHospitalaMetodosPublicos" classname="HospitalTest" time="0.001"/>
+  <testcase name="desligarMedicoValido" classname="HospitalTest" time="0.001"/>
+  <testcase name="realizarPagamentoValorNuloSemExcecao" classname="HospitalTest" time="0"/>
+</testsuite>
