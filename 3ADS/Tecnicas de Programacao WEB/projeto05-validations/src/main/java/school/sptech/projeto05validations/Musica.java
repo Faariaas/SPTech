@@ -4,10 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.*;
 import java.time.LocalDate;
 
 @Entity
@@ -24,9 +21,18 @@ public class Musica {
     @NotBlank
     @Size(min = 3, max = 10)
     private String album;
+
+    @PastOrPresent
     private LocalDate dataLancamento;
+
+    @DecimalMax("8.0")
+    @DecimalMin("0.5")
     private Double duracao;
+
+    @Positive
     private Integer ranking;
+
+    @Pattern()
     private String contato;
     private String telefoneContato;
     private String cpfContato;

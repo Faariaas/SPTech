@@ -6,6 +6,7 @@ import org.springframework.data.repository.config.RepositoryNameSpaceHandler;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;
 
@@ -34,6 +35,12 @@ public class MusicaController {
 
         return ResponseEntity.status(200).build();
         // return ReponseEntity.of(musicaBanco)
+    }
+
+    @PutMapping
+    public ResponseEntity<Musica> criar(@RequestBody @Valid Musica novausica){
+        Musica musicaBanco = musicaRepository.save(novaMusica);
+        return ResponseEntity.status(201).body(musicaBanco);
     }
 
     @DeleteMapping("/{id}")
