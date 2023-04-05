@@ -39,7 +39,7 @@ public class Main {
                 pares++;
             }
         }
-        System.out.println("Esses são os numeros pares: " + );
+        System.out.println("Esses são os numeros pares: ");
     }
     public static void main(String[] args) {
 
@@ -59,7 +59,7 @@ public class Main {
         // Criação de um vetor de dias da semana
         String[] diaSemana = {
                 "Domingo", "Segunda", "Terça", "QUarta", "qu"
-        }
+        };
 
 
 //---------------------------------------------------------------------------------------------------
