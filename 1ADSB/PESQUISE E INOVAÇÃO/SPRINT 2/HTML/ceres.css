@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(250, 250, 250);
+}
+
+.cabeçalho{
+    border-bottom: 2px solid #32cd3a;
+}
+
+
+.container{
+    color: #18b618;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*LISTA DO INDEX*/
+.container ul {
+    color: #e3b062;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.cabeçalho .container {
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul a{
+    text-decoration: none;
+    color: #abe362;
+}
+
+.agora {
+    font-weight: 600;
+}
+
+/*foto pika*/
+.argumentos{
+    display: flex;
+    justify-content: space-between;
+}
+.title1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.separação{
+    display: flex;
+    border-radius:25px;
+    border-bottom: 15px solid #32cd3a;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.argumentos .fotopika{
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+/*banner*/
+.column1 {
+    background-color: beige;
+    border-radius: 20px;
+    height: 130px;
+    width: 250px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 20px;
+}
+.column2 {
+    background-color: beige;
+    border-radius: 20px;
+    height: 130px;
+    width: 250px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 20px;
+}
+.banner{
+    height: 857px;
+    background-size: cover;
+    background-image: url("plantcana.jpg");
+    opacity: 0.6;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex17MI</title>
+</head>
+<body>
+    <h1>O que faz um triatleta</h1>
+    <button onclick="nada()">Nada</button>
+    <button onclick="corre()">Corre</button>
+    <br><br>
+    <img id="img_nada" src="nadar.jpg" style="height: 200px; display: none;">
+    <img id="img_corre" src="correr.jpg" style="height: 200px; display: none;">
+    
+</body>
+</html>
+<script>
+    function nada() {
+        img_nada.style.display = 'block';
+        img_corre.style.display = 'none';
+    }
+    function corre() {
+        img_corre.style.display = 'block';
+        img_nada.style.display = 'none';
+        
+
+        
+    }
+</script>

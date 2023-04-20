@@ -1,0 +1,153 @@
+
+/*CORPO DA TAG*/
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+}
+
+.header{
+    border-bottom: 2px solid #32b9cd;
+}
+
+
+.container{
+    color: #32b9cd;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*LISTA DO INDEX*/
+.container ul {
+    color: #e3b062;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.header .container {
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul a{
+    text-decoration: none;
+    color: #e3b062;
+}
+
+.agora {
+    font-weight: 600;
+}
+
+/*BANNER*/
+.banner{
+    height: 500px;
+    background-size: cover;
+    background-image: url("bg-jelly-fish-para-home.png");
+    
+}
+
+
+.banner .container{
+    height: 500px;
+    align-items: center;
+}
+
+.banner p{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 280px;
+    margin-left: 350px;
+}
+
+.banner span{
+    font-weight: 600;
+}
+
+/*LOGIN*/
+
+.banner .card {
+    background-color: beige;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.card{
+    margin-top: 20px;
+}
+
+.btn {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    border: 0;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 15px;
+    background-color: #e75459;
+    cursor: pointer;
+}
+
+.card input{
+    height: 30px;
+    border: 1px solid #e75459;
+    border-radius: 4px;
+}
+
+
+/*REGISTRO*/
+.banner .card_cad {
+    background-color: beige;
+    height: 450px;
+    width: 400px;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 20px;
+}
+
+.card_cad{
+    margin-top: 20px;
+}
+
+.btn {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    border: 0;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 15px;
+    background-color: #e75459;
+    cursor: pointer;
+}
+.card_cad input{
+    height: 30px;
+    border: 1px solid #e75459;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+fieldset {
+    border: 0;
+}
+
+.card_cad fieldset .field .sobre {
+    float: left;
+    justify-content: space-between;
+    flex-direction: column;
+}

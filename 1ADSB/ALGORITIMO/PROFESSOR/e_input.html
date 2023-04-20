@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+</head>
+<body>
+    <h2>Tag Input</h2>
+    Entre com o seu nome:
+    <input id="ipt_nome">
+    <br>
+    <button onclick="mostrar()">Mostrar</button>
+</body>
+</html>
+<script>
+    function mostrar() {
+        alert ("O seu nome é: " + ipt_nome.value + "Prazer!!");
+        ipt_nome.value = '';
+    }
+
+</script>

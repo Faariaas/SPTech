@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora financeira</title>
+</head>
+<body>
+
+<div style="background-color: darkgrey; width: 25%;height: 620px;" class="pai">
+    
+                                        <!-- inputs---------------->
+                                        <br>
+    <div class="1aba">   
+        <center> 
+    Insira o consumo de água no verão em m³:
+    <br>
+    <br>                              
+    <input style="width: 80%; height: 20px;" id="ipt_verao" type="text">
+    <br>
+    <br>
+    Insira o consumo de água no outono em m³:
+    <br>
+    <br>                              
+    <input style="width: 80%; height: 20px;" id="ipt_outono" type="text">
+    <br>
+    <br>
+    Insira o consumo de água no inverno em m³:
+    <br>
+    <br>                              
+    <input style="width: 80%; height: 20px;" id="ipt_inverno" type="text">
+    <br>
+    <br>
+    Insira o consumo de água no primavera em m³:
+    <br>
+    <br>                              
+    <input style="width: 80%; height: 20px;" id="ipt_primavera" type="text">
+    <br>
+    <br>
+    Insira o tamanho da sua plantação de pimenta em ha:
+    <br>
+    <br>
+    <input style="width: 80%; height: 20px;" id="ipt_tamanho" type="text">
+        </center> 
+</div>
+                                <!-- inputs---------------->
+                             
+    <br>        
+    <br>
+    <center>
+    <button style= "width:80%;" onclick="bt_calculo()">Calcular consumo de água por m² de plantação</button>
+    <br><br>
+    <span id="spanText"></span>
+    </center>
+                                        <!-- botões---------------->
+</div>
+   
+</body>
+</html>
+<script>
+
+    function bt_calculo()
+    {
+    var ax_verao = Number (ipt_volume.value)
+    var ax_outono = Number (ipt_volume.value)
+    var ax_inverno = Number (ipt_volume.value)
+    var ax_primavera = Number (ipt_volume.value)
+    var ax_tamanho = Number (ipt_tamanho.value)
+    var ax_consumo = (ax_verao + ax_outono + ax_inverno + ax_primavera) / ax_tamanho
+    spanText.innerHTML = `O consumo de água por hectares de plantação é de ${ax_consumo.toFixed(2)} m³ / ha.`; 
+    ipt_verao.value = ``
+    ipt_outono.value = ``
+    ipt_inverno.value = ``
+    ipt_primavera.value = ``
+    ipt_tamanho.value = ``
+    }
+</script>
