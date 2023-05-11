@@ -19,14 +19,16 @@ function Musicas() {
             })
     }
     return (
-        <div>
-            <h1>Lista de musicas!!</h1>
-            <button onClick={getMusicas}>Listar Musicas</button>
-            <div>
-                {Musicas.map((musica) => {
-                    return <div key={musica.id}>{musica.id}-{musica.titulo}</div>
-                })
-                }</div>
+        // <div>
+        //     <h1>Lista de musicas!!</h1>
+        //     <button onClick={getMusicas}>Listar Musicas</button>
+        //     <div>
+        //         {Musicas.map((musica) => {
+        //             return <div key={musica.id}>{musica.id}-{musica.titulo}</div>
+        //         })
+        //         }</div>
+        // </div>
+        
         </div>
     )
 }

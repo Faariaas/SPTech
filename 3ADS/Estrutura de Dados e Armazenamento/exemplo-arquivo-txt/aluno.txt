@@ -1,0 +1,6 @@
+00NOTA2023126-04-2023 19:29:1801
+02  ADS 0122101Gabriel Farias Santos                             Pesquisa e Inovação                     09,50004
+02  ADS 0122150Andrey Rodrigues                                  Estrutura de dados                      05,50009
+02  CCO 0122149Eduardo Francisco                                 Analise de algoritimos                  08,00013
+02Todas0122todoPoderosissimo FELIX                               Todas                                   10,00000
+010000000004

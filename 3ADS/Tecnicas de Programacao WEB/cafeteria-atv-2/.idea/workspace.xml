@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="74eb70d5-9dc9-40fc-a762-1ad7162f565d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Estrutura de Dados e Armazenamento/exemplo-arquivo-csv/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Estrutura de Dados e Armazenamento/exemplo-arquivo-txt/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Estrutura de Dados e Armazenamento/exemplo-arquivo-txt/src/main/java/org/example/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Estrutura de Dados e Armazenamento/exemplo-excecao/exemplo-excecao/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Estrutura de Dados e Armazenamento/exemplo-excecao/exemplo-excecao/src/main/java/org/example/ExemplThrows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Estrutura de Dados e Armazenamento/saida-formatada/src/main/java/org/example/ListaOBJ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Estrutura de Dados e Armazenamento/saida-formatada/src/main/java/org/example/videoJogos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-buscadores-dinamicos/src/main/java/sptech/school/projetobuscadoresdinamicos/Dominio/Diretor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-buscadores-dinamicos/src/main/java/sptech/school/projetobuscadoresdinamicos/Repositorio/DiretorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-buscadores-dinamicos/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-cinema/src/main/java/sptech/school/projetocinema/dto/FilmeResumoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../video-jogos-atividade/video-jogos-atividade/src/main/java/school/sptech/videojogosatividade/VideoJogosAtividadeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../video-jogos-atividade/video-jogos-atividade/src/main/java/school/sptech/videojogosatividade/controladora/JogoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../video-jogos-atividade/video-jogos-atividade/src/main/java/school/sptech/videojogosatividade/entidades/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../video-jogos-atividade/video-jogos-atividade/src/main/java/school/sptech/videojogosatividade/entidades/Jogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../video-jogos-atividade/video-jogos-atividade/src/main/java/school/sptech/videojogosatividade/reposritorio/EmpresaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../video-jogos-atividade/video-jogos-atividade/src/main/java/school/sptech/videojogosatividade/reposritorio/JogoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../video-jogos-atividade/video-jogos-atividade/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2ADSB/Pesquisa e Inovação/CoisasDePI/API-Site" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2ADSB/Pesquisa e Inovação/CoisasDePI/API-Site" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2ADSB/Pesquisa e Inovação/Saver/AplicacaoSaver" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2ADSB/Pesquisa e Inovação/Saver/AplicacaoSaver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2ADSB/Pesquisa e Inovação/Saver3SPRINT/AplicacaoSaver" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2ADSB/Pesquisa e Inovação/Saver3SPRINT/AplicacaoSaver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Estrutura de Dados e Armazenamento/exemplo-saida-formatada/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estrutura de Dados e Armazenamento/exemplo-saida-formatada/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Estrutura de Dados e Armazenamento/exemplo-saida-formatada/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estrutura de Dados e Armazenamento/exemplo-saida-formatada/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Estrutura de Dados e Armazenamento/exemplo-saida-formatada/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estrutura de Dados e Armazenamento/exemplo-saida-formatada/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Estrutura de Dados e Armazenamento/exemplo-saida-formatada/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estrutura de Dados e Armazenamento/exemplo-saida-formatada/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Estrutura de Dados e Armazenamento/exemplo-saida-formatada/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estrutura de Dados e Armazenamento/exemplo-saida-formatada/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pesquisa e Inovacao/BootcampReact/Aula02/music-box/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pesquisa e Inovacao/BootcampReact/Aula02/music-box/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pesquisa e Inovacao/BootcampReact/Aula02/music-box/src/pages/Musicas.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pesquisa e Inovacao/BootcampReact/Aula02/music-box/src/pages/Musicas.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2PYlk9I5aoA5hQRlYqqtHnGe8Ei" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/gabriel.f.a.santos/Documents/SPTech/3ADS/Tecnicas de Programacao WEB/TemaCafeteriaGF's/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "c17dc3cb8331881e41e736076c6e0ff4",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="sptech.scholl.cafeteriaatv2.domain" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CafeteriaAtv2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cafeteria-atv-2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="sptech.scholl.cafeteriaatv2.CafeteriaAtv2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74eb70d5-9dc9-40fc-a762-1ad7162f565d" name="Changes" comment="" />
+      <created>1683642036133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683642036133</updated>
+      <workItem from="1683642037509" duration="705000" />
+      <workItem from="1683642927238" duration="5180000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
